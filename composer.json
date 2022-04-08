@@ -3,7 +3,7 @@
     "alias": "dcat-k3-sku",
     "description": "sku表单扩展",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": ["dcat-admin", "extension"],
     "homepage": "https://github.com/kangzhengliang/dcat-k3-sku",
     "license": "MIT",

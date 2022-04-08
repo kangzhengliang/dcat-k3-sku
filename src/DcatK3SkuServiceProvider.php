@@ -15,10 +15,6 @@ class DcatK3SkuServiceProvider extends ServiceProvider
         'css/sku.css'
 	];
 
-	public function register()
-	{
-		//
-	}
 
 	public function init()
 	{
@@ -32,10 +28,5 @@ class DcatK3SkuServiceProvider extends ServiceProvider
             Form::extend('sku', SkuField::class);
         });
 
-	}
-
-	public function settingForm()
-	{
-		return new Setting($this);
 	}
 }
