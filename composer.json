@@ -1,0 +1,33 @@
+{
+    "name": "kangzhengliang/dcat-k3-sku",
+    "alias": "dcat-k3-sku",
+    "description": "sku表单扩展",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/kangzhengliang/dcat-k3-sku",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kangzhengliang",
+            "email": "554290341@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kangzhengliang\\Dcat\\Sku\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Kangzhengliang\\Dcat\\Sku\\DcatK3SkuServiceProvider",
+        "laravel": {
+            "providers": [
+                "Kangzhengliang\\Dcat\\Sku\\DcatK3SkuServiceProvider"
+            ]
+        }
+    }
+}
